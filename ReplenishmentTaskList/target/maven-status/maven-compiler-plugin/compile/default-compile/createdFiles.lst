@@ -1,0 +1,7 @@
+com\replenishment\model\Users.class
+com\replenishment\daoImpl\TaskDaoImpl.class
+com\replenishment\controller\TaskResourcesController.class
+com\replenishment\dao\TaskDao.class
+com\replenishment\model\Task.class
+com\replenishment\model\TaskAssign.class
+com\replenishment\controller\HomeController.class

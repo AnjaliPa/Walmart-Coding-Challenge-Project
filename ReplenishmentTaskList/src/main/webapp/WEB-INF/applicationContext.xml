@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"
+xmlns:tx="http://www.springframework.org/schema/tx"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.springframework.org/schema/beans">
+
+<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSource">
+  <property value="org.h2.Driver" name="driverClassName"/>
+  <property value="jdbc:h2:~/test" name="url"/>
+  <property value="sa" name="username"/>
+  <property value="" name="password"/>
+</bean>
+
+
+<bean class="org.springframework.orm.hibernate4.LocalSessionFactoryBean" id="sessionFactory">
+ <property name="dataSource" ref="dataSource"/>
+ <property name="hibernateProperties">
+	 <props>
+	 <prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
+	 <prop key="hibernate.hbm2ddl.auto">update</prop>
+	 <prop key="hibernate.show_sql">true</prop>
+	 <prop key="hibernate.format_sql">true</prop>
+	</props>
+</property>
+	<property name="packagesToScan">
+		<list>
+		  <value>com.replenishment</value>
+		</list>
+	</property>
+</bean>
+
+
+<bean class="org.springframework.orm.hibernate4.HibernateTransactionManager" id="transactionManager">
+ <property name="sessionFactory" ref="sessionFactory"/>
+</bean>
+
+</beans>
