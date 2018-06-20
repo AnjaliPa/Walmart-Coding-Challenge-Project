@@ -8,7 +8,7 @@ Below is the data model created for the project:
 ![](Data%20Model.png)
 
 ### Steps to execute project: ###
-*I was not able to successfully create war files*, becaues I am using H2 database and after creating war files update, delete and insert rights are not given (I need to explore further on how to to solve it). So, I have uploaded my complete project on github. If it is exported to eclipse directly, one should be able to execute it. Below are the different software versions I have used:
+*I was not able to successfully create war files*, becaues I am using H2 database and after creating war files update, delete and insert rights for database are not given (I need to explore further on how to to solve it). So, I have uploaded my complete project on github. If it is exported to eclipse directly, one should be able to execute it. Below are the different software versions I have used:
 * Spring mvc version - 4.0.6
 * Apache Tomcat Version 8.0
 * Hibernate version - -4.0.1
