@@ -65,6 +65,7 @@
                    <li class="active"><a href="#"></a></li>
                    <li><a href='<c:url value="/adminlogin"/>'>Admin Login Here</a></li>
                    <li><a href='<c:url value="/userlogin"/>'>User Login Here</a></li>
+                   <li><a href='<c:url value="/displayRegistrationPage"/>'>Registration Here</a></li>
                    
                       
                </ul>
@@ -93,6 +94,7 @@
               <p>Wal-Mart is shelving its "Always Low Prices" slogan after 19 years and launching an advertising campaign that plays up life's little pleasures over no-frills practicality. The new motto  "Save Money. Live Better."</p>
               <p><a class="btn btn-lg btn-primary" href='<c:url value="/adminlogin"/>' role="button">Admin Login today</a></p>
                 <p><a class="btn btn-lg btn-primary" href='<c:url value="/userlogin"/>' role="button">User Login today</a></p>
+                <p><a class="btn btn-lg btn-primary"  href='<c:url value="/displayRegistrationPage"/>' role="button">Registration Here</a></p>
             </div>
           </div>
         </div>
@@ -158,8 +160,7 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p class="pull-right"><a href="#">Designed by Anjali</a></p>
       </footer>
 
     </div><!-- /.container -->

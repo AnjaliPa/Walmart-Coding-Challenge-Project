@@ -24,7 +24,7 @@
         </div>
         
         <input type="submit" value="Submit" class="btn btn-default">
-        
+        <button type="button" name="back" onclick="history.back()">Cancel</button>
         </form:form>
   
  			

@@ -14,8 +14,10 @@
 		</div>
   			<tr>
   			<th><a href='<c:url value="/displayCreateTaskForm"/>' class="btn btn-primary">Create Task</a></th>
-  			<th><a href='<c:url value="/displayTask"/>' class="btn btn-primary">Assigned task</a></th>
+  			<th><a href='<c:url value="/displayPendingTask"/>' class="btn btn-primary">Pending Task</a></th>
+  			<th><a href='<c:url value="/displayUsersTask"/>' class="btn btn-primary">Display Task</a></th>
   			
+  			<th><button type="button" name="back" onclick="history.back()" class="btn btn-primary">Go Back</button>
   			</tr>
   
 		        

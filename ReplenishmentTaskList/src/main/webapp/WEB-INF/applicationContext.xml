@@ -7,7 +7,7 @@ xmlns="http://www.springframework.org/schema/beans">
 
 <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSource">
   <property value="org.h2.Driver" name="driverClassName"/>
-  <property value="jdbc:h2:~/test" name="url"/>
+  <property value="jdbc:h2:~/test;AUTO_SERVER=TRUE" name="url"/>
   <property value="sa" name="username"/>
   <property value="" name="password"/>
 </bean>

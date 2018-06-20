@@ -19,6 +19,7 @@
 			 		<th>Estimated Time</th>
 			 		<th>Created By</th>
 			 		<th></th>
+			 		<th></th>
 			 		</tr>
 			 	</thead>
 			 	<c:forEach items="${tasks}" var="task">
@@ -28,12 +29,16 @@
 			 		<th>${task.taskPriority}</th>
 			 		<th>${task.taskEstimatedTime} HR</th>
 			 		<th>${task.username} </th>
-			 		<th><a href='<spring:url value="/assignTask/${task.taskId}"/>' class="btn btn-primary">Assign Task</a>
-			 		
-			 		</tr>
+			 		<th><a href='<spring:url value="/assignTask/${task.taskId}"/>' class="btn btn-info">Assign Task </a>
+					<th><a href='<spring:url value="/statusMatrixForm/${task.taskId}"/>' class="btn btn-warning">Status Action Matrix</a>
+			 	</th>
+			 	</tr>
 			 					 	
-			 	</c:forEach>	
+			 	</c:forEach>
+			 		
 			 </table>
+			 <button type="button" name="back" onclick="history.back()" class="btn btn-danger">Go Back</button>
+			 
 			</div>
 		
 <%@include file="/WEB-INF/view/template/footer.jsp"%>

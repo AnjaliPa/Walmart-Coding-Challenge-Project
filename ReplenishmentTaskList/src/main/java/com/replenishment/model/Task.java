@@ -12,50 +12,60 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Task {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int taskId;
 	private String taskName;
 	private String taskDescription;
 	private String taskPriority;
-	private float  taskEstimatedTime;
+	private float taskEstimatedTime;
 	private String username;
-	
+
 	public String getUsername() {
 		return username;
 	}
+
 	public void setUsername(String username) {
 		this.username = username;
 	}
+
 	public int getTaskId() {
 		return taskId;
 	}
+
 	public void setTaskId(int taskId) {
 		this.taskId = taskId;
 	}
+
 	public String getTaskName() {
 		return taskName;
 	}
+
 	public void setTaskName(String taskName) {
 		this.taskName = taskName;
 	}
+
 	public String getTaskDescription() {
 		return taskDescription;
 	}
+
 	public void setTaskDescription(String taskDescription) {
 		this.taskDescription = taskDescription;
 	}
+
 	public String getTaskPriority() {
 		return taskPriority;
 	}
+
 	public void setTaskPriority(String taskPriority) {
 		this.taskPriority = taskPriority;
 	}
+
 	public float getTaskEstimatedTime() {
 		return taskEstimatedTime;
 	}
+
 	public void setTaskEstimatedTime(float taskEstimatedTime) {
 		this.taskEstimatedTime = taskEstimatedTime;
 	}
-	
-	
+
 }

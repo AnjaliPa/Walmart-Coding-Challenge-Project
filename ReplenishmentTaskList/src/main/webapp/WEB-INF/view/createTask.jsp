@@ -46,7 +46,7 @@
       
         <br><br>
         <input type="submit" value="submit" class="btn btn-default">
-        <a href="<c:url value="/landingPage" />" class="btn btn-default">Cancel</a>
+         <button type="button" name="back" onclick="history.back()" class="btn btn-default">Cancel</button>
        </form:form>
 
 
