@@ -8,7 +8,7 @@ Below is the data model created for the project:
 ![](Data%20Model.png)
 
 ### Steps to execute project: ###
-*I was not able to successfully create war files*, becaues I am using H2 database and after creating war files update, delete and insert rights for database are not given (I need to explore further on how to to solve it). So, I have uploaded my complete project on github. If it is exported to eclipse directly, one should be able to execute it. Below are the different software versions I have used:
+*I created WAR file and updated on GitHub, but not able to execute it through command line.* I need to work on it to see how to update it. So, I have uploaded my complete project on github along with WAR file. If WAR file is exported to eclipse directly, one should be able to execute it on server. Below are the different software versions I have used for development:
 * Spring mvc version - 4.0.6
 * Apache Tomcat Version 8.0
 * Hibernate version - -4.0.1
@@ -17,6 +17,8 @@ Below is the data model created for the project:
 * Test REST API -- Jackson version 2.5.1
 * Database H2 Embedded mode
 * Java version 1.8
+
+I tested this WAR file with H2 latest version and tomcat 9 installed on another system and I was able to succesfully test it.
 
 ## Problem Statement Understanding #
 Today’s replenishment managers need to do repetitive tasks and they need a workspace to manage all their tasks. Experience users should curate a task list, however individual user can also add a new task. Also, task should be created from outside. Below are the functionalities needed to complete this coding challenge:
