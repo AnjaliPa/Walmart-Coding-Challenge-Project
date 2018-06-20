@@ -8,7 +8,7 @@ Below is the data model created for the project:
 ![](Data%20Model.png)
 
 ### Steps to execute project: ###
-*I created WAR file and updated on GitHub, but not able to execute it through command line.* I need to work on it to see how to do that. So, I have uploaded my complete project on github along with WAR file. If WAR file is exported to eclipse directly, one should be able to execute it using local server (I used tomcat for that purpose) . Below are the different software versions I have used for development:
+*I created WAR file and updated on GitHub, but not able to execute it through command line.* I need to work on it to see how to do that. So, I have uploaded my complete project on github along with WAR file. If WAR file is exported to eclipse directly, one should be able to execute it using local server (I used tomcat) . Below are the different software versions I have used for development:
 * Spring mvc version - 4.0.6
 * Apache Tomcat Version 8.0
 * Hibernate version - -4.0.1
