@@ -44,9 +44,9 @@ Today’s replenishment managers need to do repetitive tasks and they need a wor
   * **Currently Developed**: Create task interface shall be used both by admin and individuals. From landing page after signing-in depending upon role separate landing page will be displayed. Clicking on button “Create task” will go to create task page.
   * **TBD**: Have frequency also to be stored in database, so application is able to trigger the job using Spring Batch.
 3.	***Create task through rest API***: Tasks can also be created using rest API call. Below is the example for that:
-POST method
-URL: `http://localhost:8080/ReplenishmentTaskList/createTaskbyRest`
-sample body:
+* POST method
+* URL: `http://localhost:8080/ReplenishmentTaskList/createTaskbyRest`
+* sample body:
 ```JSON
 {
 	"taskName": "restTask",
